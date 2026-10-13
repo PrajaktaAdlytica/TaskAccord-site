@@ -1,0 +1,74 @@
+[
+  {
+    "pair": "Ink / paper",
+    "foreground": "#262B26",
+    "background": "#F5F0E6",
+    "ratio": 12.7,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Ink / sage",
+    "foreground": "#262B26",
+    "background": "#DDE2D3",
+    "ratio": 10.92,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Muted / surface",
+    "foreground": "#62665D",
+    "background": "#FFFCF5",
+    "ratio": 5.73,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Paper / ink action",
+    "foreground": "#F5F0E6",
+    "background": "#262B26",
+    "ratio": 12.7,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Success / sage",
+    "foreground": "#355B44",
+    "background": "#DDE2D3",
+    "ratio": 5.82,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Error / clay",
+    "foreground": "#963C2D",
+    "background": "#F1DED1",
+    "ratio": 5.4,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Pending / paper",
+    "foreground": "#835B1C",
+    "background": "#F5F0E6",
+    "ratio": 5.32,
+    "normal_text_4_5": true,
+    "ui_3": true
+  },
+  {
+    "pair": "Strong boundary / surface",
+    "foreground": "#807565",
+    "background": "#FFFCF5",
+    "ratio": 4.41,
+    "normal_text_4_5": false,
+    "ui_3": true
+  },
+  {
+    "pair": "Brass / paper (decorative)",
+    "foreground": "#9B6C3C",
+    "background": "#F5F0E6",
+    "ratio": 4.02,
+    "normal_text_4_5": false,
+    "ui_3": true
+  }
+]

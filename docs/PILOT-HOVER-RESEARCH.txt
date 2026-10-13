@@ -1,0 +1,84 @@
+**Recommendation:** Keep the ivory card and its price completely static. On devices that can hover, lift the card **2px over 160ms** and fade in a short brass dash in an empty corner. When a card’s CTA receives keyboard focus, show the dash **without moving the card**, and give the CTA its own visible dark-sage focus outline. This reads as gentle attention, not a selected plan or a purchase action. Use `:focus-within` for the card cue and `@media (hover: hover)` only for the pointer lift; neither pricing information nor the CTA should depend on hover. [MDN hover](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/hover) [MDN focus-within](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-within) [W3C Focus Visible](https://www.w3.org/TR/WCAG22/#focus-visible)[web:31][web:34][web:25]
+
+```css
+.plan {
+  position: relative;
+  transition: transform 160ms ease-out;
+}
+.plan::after {
+  content: "";
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 1.5rem;
+  height: 2px;
+  background: #8b7046; /* decorative brass */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms ease-out;
+}
+.plan:focus-within::after { opacity: 1; }
+.plan .cta:focus-visible {
+  outline: 2px solid #35483b;
+  outline-offset: 3px;
+}
+@media (hover: hover) {
+  .plan:hover::after { opacity: 1; }
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .plan:hover { transform: translateY(-2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .plan, .plan::after { transition: none; }
+}
+```
+
+Keep the price’s color, opacity, size, and position unchanged; keep the CTA visible and usable on touch. Test the actual sage outline against its adjacent ivory for **3:1 non-text contrast**, and price/body text for **4.5:1** (or **3:1** for large text). Explicit `transform` and `opacity` transitions avoid animating layout; reduced-motion users get the static cue. [MDN transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using) [web.dev animation performance](https://web.dev/articles/animations-and-performance) [MDN reduced motion](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion) [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/)[web:3][web:20][web:1][web:19][web:16]
+
+Citations:
+[1] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
+[2] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition
+[3] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using
+[4] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions
+[5] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility
+[6] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media
+[7] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition-property
+[8] https://developer.mozilla.org/en-US/docs/Web/API/CSSTransition/transitionProperty
+[9] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition-behavior
+[10] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function
+[11] https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button
+[12] https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Browsing_safely
+[13] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries
+[14] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/View_transitions
+[15] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition-duration
+[16] https://www.w3.org/TR/WCAG21/
+[17] https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html
+[18] https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/
+[19] https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html
+[20] https://web.dev/articles/animations-and-performance
+[21] https://www.w3.org/TR/wcag-3.0/
+[22] https://www.w3.org/WAI/WCAG3/informative/input-operation/input-operation/hover-or-focus-content-persistent/
+[23] https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/
+[24] https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html
+[25] https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html
+[26] https://www.w3.org/TR/wcag2mobile-22/
+[27] https://web.dev/articles/animations-examples
+[28] https://web.dev/articles/stick-to-compositor-only-properties-and-manage-layer-count
+[29] https://web.dev/articles/animations-guide
+[30] https://web.dev/articles/animations-overview
+[31] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/hover
+[32] https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html
+[33] https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions
+[34] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-within
+[35] https://wcag.a11y.ing/en/wcag/operable/seizures-and-physical-reactions/animation-from-interactions/
+[36] https://github.com/mdn/content/blob/main/files/en-us/web/css/reference/selectors/pseudo-classes/index.md?plain=1
+[37] https://github.com/mdn/translated-content-de/blob/main/files/de/web/css/reference/at-rules/@media/hover/index.md?plain=1
+[38] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
+[39] https://w3c.github.io/wcag/guidelines/22/
+[40] https://github.com/mdn/content/blob/main/files/en-us/web/css/reference/at-rules/@media/any-hover/index.md?plain=1
+[41] https://accessibility.build/wcag/2-3-3
+[42] https://developer.mozilla.org.cach3.com/en-US/docs/Web/CSS/@media/any-hover
+[43] https://www.w3docs.com/learn-css/focus
+[44] https://frontend-practical.dev/en/css/interaction/
+[45] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus
+

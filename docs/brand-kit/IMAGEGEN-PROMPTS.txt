@@ -1,0 +1,11 @@
+TASKACCORD / BUILT-IN IMAGEGEN ASSET PROMPT SPECIFICATIONS
+12 October 2026. These are normalized asset specifications accompanying the delivered images.
+
+HOMEPAGE SURVEY POSTER
+1536 × 1024 landscape. References: selected Surveyor's Crossing homepage and Mesa Passage secondary-page concepts. Original cinematic 3D topographic survey map in pressed cream paper and pale limestone. One copper/brass bridge carries one blank task slip between contour mesas; alternate side branch stops at a rust-red boundary shutter. Broad oblique camera. Upper-left low-detail negative space for real HTML headings. Paper #F5F0E6, ivory #FFFCF5, limestone #E6DCCB, sage #DDE2D3, tobacco #3C2F25, brass #9B6C3C, copper #B66745, clay #963C2D. Fine material detail, warm afternoon light. No words, numbers, UI, logos, watermarks, flags, stars, cowboy props, guns, legal seals, copied maps or blue/purple AI motifs. Static illustration/poster for a later WebGL environment.
+
+SECONDARY MESA POSTER
+1536 × 1024 landscape. References: selected Mesa Passage and Surveyor's Crossing concepts. One sunlit limestone courtyard terrace with slender brass arch holding a blank paper record, copper path through the arch to a receipt landing and a small side-path boundary shutter. Same materials, palette and lighting as homepage, closer eye-level camera. Left half leaves quiet space for real HTML copy. No UI, words, numbers, logos, signatures, stamps, seals, flags, stars, cowboy items, crowds or neon. Original contemporary sculptural architecture. Static poster, not a working 3D screenshot.
+
+IVORY PAPER TEXTURE
+Requested 1024 × 1024 square seamless/tileable fine cotton-rag archival stationery texture; tool returned a 1254 × 1254 raster. Uniform overhead scan, neutral diffuse light, warm #F5F0E6 grain, clean subtle fibers. No document, typography, contour lines, borders, stains, tears, creases, shadows, vignetting, gradients, objects or watermarks. Use a low-opacity overlay. Seamless-edge behavior remains subject to visual checking; the guide does not claim verified seamless tiling.

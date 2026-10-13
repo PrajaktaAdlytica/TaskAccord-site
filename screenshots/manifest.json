@@ -1,0 +1,387 @@
+{
+  "captured": "2026-10-12",
+  "captures": [
+    {
+      "file": "demo-authority-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "4000db3bea5ce781afd2d28966a6e87f3b1b58bb30c8d56a42dba4c78282dbef",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-boundary-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "8016175e9bd394a2e53c2ab7ce73f7f2a76f61e1601fb4345ed3fe3aedf6ef68",
+      "route": "/demo",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-boundary-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "8bd3b42d9c29cf79f6a0becc35459ec35a5c185ab6dde07029176e9849780ef6",
+      "route": "/demo",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-evidence-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "ce9e0b91720572d79288edb9a04166a37ecda3787de1a11b1dffab9e8be3951d",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-mandates-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "c699c38c7a6994bcae2d63de1909b440b0e902fdcf657696d6d199f234800370",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-queue-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "2ed3613f8b19940616aa8e73648c634b7d7a650f1dae50bd28cb602c36f9ec2b",
+      "route": "/demo/tasks",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-queue-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "aa4d2b30c5d925ddc441874cfc8a776c4e27f1ba4e1d75ed4fe0943c59d0539c",
+      "route": "/demo/tasks",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-receipt-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "31528ea531844b52c24b8264da9e3221a7134ea7df8871462acdd83a129d756b",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-receipts-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "31528ea531844b52c24b8264da9e3221a7134ea7df8871462acdd83a129d756b",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-reconciliation-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "5f1c1f90fa3f1f81be3066866d60d76f3a54f8e97ab3736f43ba843c154a0118",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-record-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "321ce74faffa7e1821f1901fd242f1bc680866834509c0d33703e7b143508fb4",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-report-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "0d3c487a0358ef66e9e0ae93729ac769ba788c2a0dc3880d7c37645d3b575947",
+      "route": "/demo/report/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "demo-scope-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "730cb62f6100106f40cbb151ed48369c5f75914a29f214b64e9bb4029c15443c",
+      "route": "/demo/tasks/M-DEMO-1",
+      "state": "Canonical synthetic fixture view"
+    },
+    {
+      "file": "form-success-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "12d0f75d2b3450984ccbbb20b983c16829070efe7c89bdbae2167ae9317b9ec6",
+      "route": "/sandbox",
+      "state": "Local application draft prepared; fictional entries"
+    },
+    {
+      "file": "form-success-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "a2ec4f06583314f68d9d02df72c95046f64c0afe257ba1b1ce91a911e51b638e",
+      "route": "/sandbox",
+      "state": "Local application draft prepared; fictional entries"
+    },
+    {
+      "file": "home-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "dd626fcb7aab364041ad187cf83f40eedd3b1e62bb2287e3e7d1803bf00bfc35",
+      "route": "/",
+      "state": "Page view"
+    },
+    {
+      "file": "home-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "72d9c35d8743a330ec238ae1d5aaf5dc38f93b8397db8ee14eb8b75dba300a5e",
+      "route": "/",
+      "state": "Page view"
+    },
+    {
+      "file": "pricing-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "2560921aa19b3f8a13711083712466f019f0831e6e7982585a239e0a4c57a6b6",
+      "route": "/pilot",
+      "state": "Page view"
+    },
+    {
+      "file": "pricing-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "8856fe0e5d35beb69890acd8f8b1b5a1fad8cec09e2fb72b95d2f3e4647ab882",
+      "route": "/pilot",
+      "state": "Page view"
+    },
+    {
+      "file": "product-hero-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": false,
+      "sha256": "cbba27a253c10da3c97f10045a9a10b65e54b846f645d5b03ced43b9140e2ab9",
+      "route": "/product",
+      "state": "Page view"
+    },
+    {
+      "file": "workflow-1440.jpg",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "986641cd14442ede8afbcc1c99ec015f6918ecf99249b11c77d21b36dbc01103",
+      "route": "/",
+      "state": "Rejected $180 change"
+    },
+    {
+      "file": "workflow-390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "css_viewport": [
+        390,
+        844
+      ],
+      "density": "1 screenshot pixel per CSS pixel",
+      "source": "genuine IAB browser render",
+      "synthetic_product_data": true,
+      "sha256": "4d00d335efa0a783f64762778a2cdf33fce2f31eb693f89fa2a4882ab4c34efc",
+      "route": "/",
+      "state": "Rejected $180 change"
+    }
+  ],
+  "qa_comparisons": "qa/ contains labeled side-by-side evidence only, never presented as live product screenshots.",
+  "source_assets": [
+    "approved brand kit",
+    "original Three.js world",
+    "original generated textures / Mesa poster",
+    "original sample diagrams",
+    "locally hosted licensed fonts / icons"
+  ]
+}

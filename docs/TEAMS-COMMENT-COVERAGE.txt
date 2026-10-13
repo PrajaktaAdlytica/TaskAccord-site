@@ -1,0 +1,3 @@
+For teams (/use-cases) browser comments
+1. Hero background: existing original survey-paper texture with sage tint and readable ivory diagram surface.
+2. Motion sequence: Entities → Terms → Authority → Human gate. Automatic progression holds at the final stage; direct selection, Pause and Replay supported. Synthetic and non-binding labels retained.

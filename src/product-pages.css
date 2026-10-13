@@ -1,0 +1,125 @@
+/* Product detail pages: module-specific materials and explicit four-stage stories. */
+.product-detail{--module-wash:#dfe6d7;--module-accent:#677658;--module-paper:#edf0e6}
+.product-detail-scope{--module-wash:#eee6d7;--module-accent:#8a7451;--module-paper:#f5eee2}
+.product-detail-mandates{--module-wash:#efdbcb;--module-accent:#936344;--module-paper:#f6eade}
+.product-detail-receipts{--module-wash:#e4e4d5;--module-accent:#78784f;--module-paper:#eeeee3}
+.product-detail-reconciliation{--module-wash:#e2d9cb;--module-accent:#80705a;--module-paper:#f1e9df}
+.product-detail>.page-hero{background:var(--paper) url('/assets/images/ivory-paper-texture.webp') center/900px;background-blend-mode:multiply}
+.product-detail .page-hero-art{background:#fffcf5b8;border-color:#a99b7f80;box-shadow:0 18px 42px #52432d0c;padding:22px}
+.inner-page.product-detail>.module-job-section{background:linear-gradient(color-mix(in srgb,var(--module-wash) 75%,transparent),color-mix(in srgb,var(--module-paper) 82%,transparent)),url('/assets/images/survey-paper-hero-v2.webp') center/cover;border-block:1px solid #b1a38870}
+.product-detail .module-job-section .eyebrow{color:var(--module-accent)}
+.product-detail .diagram-panel{background:#fffcf5a8 url('/assets/images/ivory-paper-texture.webp') center/700px;background-blend-mode:multiply;border:1px solid #9f967f80;box-shadow:0 16px 35px #4537230c;padding:28px}
+.inner-page.product-detail>.module-steps-section{background:var(--module-wash) url('/assets/images/ivory-paper-texture.webp') center/720px;background-blend-mode:multiply;border-bottom:1px solid #a99c8070}
+.product-detail .step-grid{gap:20px}.product-detail .step-grid article{background:#fffcf58f;border:1px solid #a99c8055;border-radius:4px;padding:28px}.product-detail .step-grid article>span{color:var(--module-accent);font-size:11px}.product-detail .step-grid article h3{margin-top:22px;font-size:28px;line-height:1.12}
+.inner-page.product-detail>.module-evidence-section{background:linear-gradient(#fffcf5ce,#f5eee3cc),url('/assets/images/survey-paper-hero-v2.webp') 20% center/cover;border-bottom:1px solid #b1a38870}
+.product-detail .module-evidence-section .split{align-items:start}.product-detail .module-evidence-section h2{position:sticky;top:120px}
+.product-detail .definition-list{background:#fffcf583;border:1px solid #a99c8070;border-radius:4px;padding:0 26px}.product-detail .definition-list>div{border-color:#a99c8077}.product-detail .definition-list>div:last-child{border-bottom:0}.product-detail .definition-list>div>span{color:var(--module-accent)}
+.inner-page.product-detail>.product-capture{background:linear-gradient(color-mix(in srgb,var(--module-paper) 80%,transparent),#f5f0e6d9),url('/assets/images/survey-paper-hero-v2.webp') center/cover;border-bottom:1px solid #a99c8070}
+.inner-page.product-detail>.module-closing-section{color:#fffcf5;background:#343d31;position:relative;isolation:isolate;border-top:1px solid #77816b}
+.module-closing-section:before{content:'';position:absolute;inset:0;background:url('/assets/images/ivory-paper-texture.webp') center/850px;opacity:.055;z-index:-1;pointer-events:none}
+.inner-page.product-detail>.module-closing-section .split>div>p{color:#e1e2d7}.module-closing-section .button{background:#fffcf5;color:#262b26;border-color:#fffcf5}.module-closing-section .button .icon{filter:none}.module-closing-section .button:hover{background:#e5d3b3;border-color:#e5d3b3}
+/* Deliberate, finite sequence: four visible stages, then hold at the human gate. */
+.product-motion-story .animated-diagram{height:235px}.product-motion-story .animated-diagram *{animation:none!important}
+.story-stage-buttons{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:12px}
+.story-stage-buttons button{font-size:9px;line-height:1.35;min-height:44px;padding:6px 4px;border:1px solid #a99c8060;border-radius:3px;background:#fffcf580;display:flex;flex-direction:column;justify-content:center;gap:3px;transition:background .25s,color .25s,border-color .25s}
+.story-stage-buttons button>span{font-size:8px;color:#8c7858}.story-stage-buttons button[aria-pressed='true']{background:#343d31;color:#fffcf5;border-color:#343d31}.story-stage-buttons button[aria-pressed='true']>span{color:#d9bd8e}
+.product-motion-story .diagram-flow{stroke-dasharray:600;stroke-dashoffset:600;opacity:1;transition:stroke-dashoffset 900ms ease,opacity .3s}
+.motion-story-view[data-stage='1'] .diagram-flow{stroke-dashoffset:300}.motion-story-view[data-stage='2'] .diagram-flow,.motion-story-view[data-stage='3'] .diagram-flow{stroke-dashoffset:0}
+.product-motion-story .diagram-node,.product-motion-story .receipt-event{transition:transform .6s ease,filter .6s ease;transform-box:fill-box;transform-origin:center}
+.motion-story-view[data-stage='0'] .node-1,.motion-story-view[data-stage='1'] .node-2,.motion-story-view[data-stage='2'] .node-3{transform:translateY(-4px);filter:drop-shadow(0 5px 5px #5e4c2820)}
+.motion-story-view[data-stage='3'] .approval-node rect{stroke:#9b6c3c;stroke-width:3}
+.product-motion-story .proposal-pin{transform:translateX(-126px);transition:transform 900ms cubic-bezier(.2,.7,.2,1)}.motion-story-view[data-stage='2'] .proposal-pin,.motion-story-view[data-stage='3'] .proposal-pin{transform:translateX(0)}
+.motion-story-view[data-stage='0'] .event-1,.motion-story-view[data-stage='1'] .event-2,.motion-story-view[data-stage='2'] .event-3,.motion-story-view[data-stage='3'] .event-3{transform:translateX(4px)}
+.story-stage-caption{display:flex;align-items:start;gap:14px;padding:15px 13px;border:1px solid #a99c8060;border-radius:3px;background:#fffcf5ba;min-height:92px}
+.story-stage-caption>span{font-size:8px;white-space:nowrap;color:#8c7858;padding-top:3px}.story-stage-caption strong{font:500 13px/1.4 var(--sans);display:block}.story-stage-caption p{font-size:10px;line-height:1.6;color:#62665d;margin:7px 0 0}.story-stage-caption.final-stage{border-left:3px solid #9b6c3c;background:#f1e9d8}
+.product-motion-story figcaption{margin-top:12px}.product-motion-story .motion-controls{margin-top:12px}
+@media(max-width:1100px) and (min-width:761px){.product-detail .page-hero-layout{grid-template-columns:1.1fr 1fr;gap:30px}.product-detail .page-hero h1{font-size:48px}.product-detail .page-hero-art{padding:16px}.product-detail .diagram-panel{padding:20px}.product-motion-story .animated-diagram{height:210px}.story-stage-buttons button{font-size:8px}.story-stage-caption{gap:9px;padding:12px 10px}.story-stage-caption strong{font-size:11px}.story-stage-caption p{font-size:9px}.story-stage-caption>span{font-size:7px}.product-detail .module-evidence-section .split{gap:30px}.product-detail .definition-list{padding:0 18px}}
+@media(max-width:760px){.product-detail .page-hero-art{padding:18px}.product-detail .diagram-panel{padding:20px}.product-motion-story .animated-diagram{height:220px}.story-stage-buttons{gap:5px}.story-stage-buttons button{font-size:9px;min-height:48px}.story-stage-caption{min-height:92px}.story-stage-caption strong{font-size:12px}.story-stage-caption p{font-size:10px}.product-detail .module-evidence-section h2{position:static}.product-detail .definition-list{padding:0 18px}.product-detail .step-grid{gap:15px}.product-detail .step-grid article{padding:24px}.product-detail .step-grid article h3{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.product-motion-story *{transition:none!important}.product-motion-story .diagram-flow{display:none}}
+/* How it works: a tactile opening and a separate protocol-boundary story. */
+.how-page>.page-hero{background:linear-gradient(90deg,#fffcf533,#f5f0e626),url('/assets/images/survey-paper-hero-v2.webp') 36% center/cover;border-bottom:1px solid #b1a38888}
+.how-page .page-hero-art{background:#fffcf5b3;border-color:#a99c8080;box-shadow:0 18px 42px #52432d12}
+.inner-page.how-page>.how-protocol-section{background:linear-gradient(#efdfcfb8,#f5eee2dc),url('/assets/images/survey-paper-hero-v2.webp') center/cover;border-block:1px solid #b1a38870}
+.protocol-story{margin-top:48px;padding:30px;border:1px solid #a99c8080;border-radius:5px;background:#fffcf5b8;box-shadow:0 18px 42px #52432d0d}
+.protocol-story .story-stage-buttons{margin-bottom:25px}.protocol-story .story-stage-buttons button{font-size:11px;min-height:48px;flex-direction:row;gap:13px}.protocol-story .story-stage-buttons button>span{font-size:9px}
+.protocol-model{max-width:800px;margin:0 auto 28px}.protocol-layer{padding:20px;text-align:center;background:#fffcf5;border:1px solid #c0b39b;border-radius:3px;transition:box-shadow .5s,border-color .5s,background .5s,transform .5s}.protocol-layer span{display:block;font-size:8px;letter-spacing:.12em;color:#7b6c52;margin-bottom:9px}.protocol-layer strong{display:block;font:500 22px/1.2 var(--serif);letter-spacing:-.02em}.protocol-layer small{font-size:11px;line-height:1.6;color:#62665d;display:block;margin-top:9px}.protocol-options{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.protocol-options strong{font:600 19px var(--sans)}.protocol-options small{font-size:10px}.protocol-options .protocol-layer{padding:21px 12px}.protocol-model-line{height:22px;margin:0 auto;border-left:1px dashed #9b6c3c;width:0}.human-layer{background:#e5eada;border-color:#a7b393}
+.protocol-story-view[data-stage='0'] .agreement-layer,.protocol-story-view[data-stage='1'] .a2a-layer,.protocol-story-view[data-stage='2'] .payment-layer,.protocol-story-view[data-stage='3'] .human-layer{border-color:#9b6c3c;box-shadow:0 0 0 2px #9b6c3c44;transform:translateY(-2px)}
+.protocol-story .story-stage-caption{max-width:800px;margin:auto;min-height:90px}.protocol-story .story-stage-caption strong{font-size:15px}.protocol-story .story-stage-caption p{font-size:12px}.protocol-story-disclosure{font-size:9px;text-align:center;color:#62665d;margin:20px 0 0}
+@media(max-width:1100px) and (min-width:761px){.how-page .page-hero-layout{gap:30px;grid-template-columns:1.1fr 1fr}.how-page .page-hero h1{font-size:48px}.how-page .page-hero-art{padding:16px}}
+@media(max-width:760px){.how-page>.page-hero{background-position:36% center}.protocol-story{padding:17px;margin-top:32px}.protocol-story .story-stage-buttons{gap:5px;margin-bottom:20px}.protocol-story .story-stage-buttons button{font-size:9px;flex-direction:column;gap:3px;min-height:48px}.protocol-story .story-stage-buttons button>span{font-size:8px}.protocol-options{gap:7px}.protocol-options .protocol-layer{padding:17px 6px}.protocol-layer{padding:19px 12px}.protocol-layer strong{font-size:21px}.protocol-options strong{font-size:16px}.protocol-layer span{font-size:7px;letter-spacing:.045em;line-height:1.6}.protocol-layer small{font-size:10px}.protocol-options small{font-size:8px}.protocol-story .story-stage-caption{padding:14px 10px;gap:10px;min-height:120px}.protocol-story .story-stage-caption strong{font-size:12px}.protocol-story .story-stage-caption p{font-size:10px}.protocol-story-disclosure{font-size:8px;line-height:1.7}}
+@media(prefers-reduced-motion:reduce){.protocol-layer{transition:none!important}.protocol-story-view .protocol-layer{transform:none!important}}
+
+/* For teams: sage archive paper with a readable authority sequence. */
+.teams-page>.page-hero{background:linear-gradient(90deg,#e4e9d766,#edf0e63d),url('/assets/images/survey-paper-hero-v2.webp') 36% center/cover;border-bottom:1px solid #a8b09380}.teams-page .page-hero-art{background:#fffcf5b8;border-color:#9eaa8c80;box-shadow:0 18px 42px #4c573212}.teams-page .page-hero .eyebrow{color:#526443}
+@media(max-width:1100px) and (min-width:761px){.teams-page .page-hero-layout{gap:30px;grid-template-columns:1.1fr 1fr}.teams-page .page-hero h1{font-size:48px}.teams-page .page-hero-art{padding:16px}}
+@media(max-width:760px){.teams-page>.page-hero{background-position:36% center}}
+
+/* Pilot materials: reviewed paper, sage gates and clay decision desk. */
+.inner-page.pilot-page>.content-section.pilot-gates{background:linear-gradient(90deg,#dde4d4df,#e9eddfdc),url('/assets/images/ivory-paper-texture.webp') center/cover;border-block:1px solid #a8b09370}
+.pilot-page>.pilot-decision{background:linear-gradient(100deg,#ead7c9d9,#f3e7dadd),url('/assets/images/ivory-paper-texture.webp') center/cover}
+.pilot-page .pilot-gates .numbered-list{background:#fffcf54d;padding:0 24px;border:1px solid #a8b09360;border-radius:4px}
+.pilot-page .pilot-gates .numbered-list p:first-child{border-top:0}
+.pilot-page .pilot-decision h3{padding-top:22px;border-top:1px solid #9b755550}
+.pilot-page .pricing-card{isolation:isolate;display:flex;flex-direction:column;transition:transform 220ms ease,border-color 220ms ease,box-shadow 220ms ease;box-shadow:0 4px 12px #423b2506}
+.pilot-page .pricing-card>.button{align-self:flex-start;margin-top:auto}
+.pilot-page .pricing-card::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(120deg,#ffffff80,transparent 65%),url('/assets/images/ivory-paper-texture.webp') center/cover;opacity:0;transition:opacity 260ms ease}
+.pilot-page .pricing-card:focus-within{transform:none;border-color:#8a6742;box-shadow:0 18px 36px #58412b20}
+.pilot-page .pricing-card:focus-within::after{opacity:.42}
+@media(hover:hover) and (pointer:fine){.pilot-page .pricing-card:hover{transform:translateY(-2px);border-color:#8a6742;box-shadow:0 18px 36px #58412b20}.pilot-page .pricing-card:hover::after{opacity:.42}}
+@media(hover:none){.pilot-page .pricing-card:hover{transform:none;box-shadow:0 4px 12px #423b2506;border-color:var(--line)}}
+@media(prefers-reduced-motion:reduce){.pilot-page .pricing-card,.pilot-page .pricing-card::after{transition:none}.pilot-page .pricing-card:hover,.pilot-page .pricing-card:focus-within{transform:none}}
+@media(max-width:760px){.pilot-page .pilot-gates .numbered-list{padding:0 16px}.pilot-page .pricing-card:focus-within{transform:none}}
+
+.pilot-page .pricing-card .button:focus-visible{outline:2px solid #35483b;outline-offset:4px}
+
+/* Limits & legal: archive paper, limestone disclosures and sage preview. */
+.inner-page.limits-page>.page-hero{background:linear-gradient(90deg,#f2ead78a,#eee9dc64),url('/assets/images/survey-paper-hero-v2.webp') 36% center/cover;border-bottom:1px solid #a99c8070}
+.limits-page .page-hero-art{background:#fffcf5c9;border-color:#a99c8080;box-shadow:0 18px 40px #51462b10}
+.inner-page.limits-page>.content-section.limits-boundaries{background:linear-gradient(110deg,#e9e5dcdf,#f3efe6dd),url('/assets/images/ivory-paper-texture.webp') center/cover}
+.limits-page .limits-grid{gap:24px}
+.limits-page .limits-grid article{background:#fffcf58c;border:1px solid #a99c8060;border-radius:4px;padding:28px}
+.limits-page .limits-grid article>.icon{color:#8a6742}
+.inner-page.limits-page>.content-section.limits-preview{background:linear-gradient(100deg,#dce4d3dd,#e9eddece),url('/assets/images/ivory-paper-texture.webp') center/cover;border-block:1px solid #a8b09370}
+@media(max-width:1100px) and (min-width:761px){.limits-page .page-hero-layout{grid-template-columns:1.1fr 1fr;gap:30px}.limits-page .page-hero h1{font-size:48px}.limits-page .page-hero-art{padding:16px}}
+@media(max-width:760px){.limits-page .limits-grid article{padding:22px}.limits-page .limits-grid{gap:18px}}
+
+/* Preview access: a clay drafting desk and a distinct sample workspace diagram. */
+.inner-page.preview-page>.page-hero{background:linear-gradient(120deg,#ecd9c8eb,#f4e9d9dd),url('/assets/images/ivory-paper-texture.webp') center/700px;border-bottom:1px solid #ae876660}
+.preview-page .page-hero-art{background:#fffcf5c7;border-color:#a4846366;box-shadow:0 18px 40px #68452812}
+.preview-story .story-stage-buttons{grid-template-columns:repeat(3,1fr)}
+.preview-model{margin:20px 0;border:1px solid #a99c8070;border-radius:4px;overflow:hidden;background:#fffcf5}
+.preview-model-header{display:flex;justify-content:space-between;gap:10px;padding:13px 16px;background:#343d31;color:#fffcf5;font-size:8px;letter-spacing:.08em}
+.preview-model-header small{font-size:7px;color:#ddceb4}
+.preview-sample,.preview-review{padding:22px 18px;display:flex;flex-direction:column;gap:10px;transition:background .25s,box-shadow .25s}
+.preview-sample>span,.preview-review>span{font-size:8px;letter-spacing:.08em;color:#82623f}
+.preview-sample>strong{font-family:var(--serif);font-size:32px;font-weight:400;line-height:1.1}
+.preview-model small{font-size:10px}
+.preview-boundary{display:grid;grid-template-columns:1fr 1fr;border-block:1px solid #a99c8060;transition:background .25s,box-shadow .25s}
+.preview-boundary>div{padding:18px;display:flex;flex-direction:column;gap:10px}.preview-boundary>div+div{border-left:1px solid #a99c8060}
+.preview-boundary span{font-size:10px;color:var(--muted)}.preview-boundary strong{font-size:16px}.preview-boundary>div+div strong{color:#a13b2d;font-size:13px}
+.preview-review>strong{font-size:14px}.preview-review>small{color:var(--muted)}
+.preview-story-view[data-stage='0'] .preview-sample,.preview-story-view[data-stage='1'] .preview-boundary,.preview-story-view[data-stage='2'] .preview-review{background:#e5e9da;box-shadow:inset 3px 0 #8a6742}
+.preview-disclosure{font-size:8px;color:var(--muted);text-align:center;line-height:1.7;margin-top:14px}
+@media(max-width:1100px) and (min-width:761px){.preview-page .page-hero-layout{grid-template-columns:1.1fr 1fr;gap:30px}.preview-page .page-hero h1{font-size:48px}.preview-page .page-hero-art{padding:16px}.preview-model-header{font-size:7px;padding:12px}.preview-boundary>div{padding:13px}}
+@media(prefers-reduced-motion:reduce){.preview-sample,.preview-review,.preview-boundary{transition:none}}
+
+/* Account entry: honest email-only sign-in preview and open sample access. */
+.signin-section{padding:76px 0;background:linear-gradient(115deg,#e3e7d9e6,#f4eddfdb),url('/assets/images/ivory-paper-texture.webp') center/700px}
+.signin-layout{display:grid;grid-template-columns:1fr 440px;gap:100px;align-items:center;max-width:1120px}
+.signin-story h1{font-size:clamp(42px,4.3vw,62px);line-height:1.04;margin:24px 0}.signin-story>p:not(.eyebrow){font-size:15px;line-height:1.8;max-width:440px;color:var(--muted)}
+.signin-record{margin-top:32px;padding:28px;border:1px solid #a99c8070;border-radius:4px;background:#fffcf59c;max-width:440px}.signin-record>span{font-size:8px;letter-spacing:.08em;color:#82623f}.signin-record h2{font-size:32px;margin:18px 0 8px}.signin-record>p{font-size:12px;color:var(--muted);margin-bottom:24px}.signin-record>div{display:flex;justify-content:space-between;gap:14px;padding:15px 0;border-top:1px solid #a99c8040;font-size:11px}.signin-record strong{font-weight:500}.signin-record small{display:block;font-size:8px;color:var(--muted);margin-top:15px}
+.signin-card{padding:36px;background:#fffcf5;border:1px solid #a99c8070;border-radius:5px;box-shadow:0 20px 48px #3e472313}.signin-card h2{font-size:44px;margin:15px 0}.signin-card>p:not(.eyebrow){font-size:13px;color:var(--muted);line-height:1.7}.signin-notice{display:flex;flex-direction:column;gap:8px;background:#e8eddf;border-left:2px solid #87916d;padding:15px;margin:24px 0;font-size:11px;line-height:1.6}.signin-notice strong{font-size:12px}
+.signin-card form{display:flex;flex-direction:column;gap:10px}.signin-card label{font-size:12px;font-weight:500}.signin-card input{width:100%;border:1px solid #a99c8080;background:#fffefb;border-radius:3px;padding:14px;font:14px var(--sans);min-height:48px}.signin-card input:focus-visible{outline:2px solid #526443;outline-offset:2px}.signin-card form>small{font-size:10px;color:var(--muted);line-height:1.6}.signin-card .button{width:100%;justify-content:space-between;font-size:12px;min-height:48px}.signin-card form>.button{margin-top:10px}.signin-status{font-size:12px;line-height:1.7;padding:14px;background:#f0e5d3;border:1px solid #af936466}
+.signin-divider{display:flex;align-items:center;gap:12px;margin:25px 0;font-size:8px;letter-spacing:.1em;color:var(--muted);white-space:nowrap}.signin-divider:before,.signin-divider:after{content:'';height:1px;flex:1;background:#a99c8040}.signin-help{display:flex;justify-content:space-between;gap:12px;margin-top:22px;font-size:11px}.signin-help a{text-decoration:underline;text-underline-offset:4px}.signin-card .signin-legal{margin-top:25px;font-size:10px}
+@media(min-width:1101px){.site-header .main-nav{gap:16px}.site-header .header-inner{gap:24px}}
+@media(max-width:1100px){.signin-layout{gap:40px;grid-template-columns:1fr 1fr}.signin-card{padding:25px}}
+@media(max-width:760px){.signin-section{padding:44px 0}.signin-layout{grid-template-columns:1fr;gap:32px}.signin-story h1{font-size:42px}.signin-story>p:not(.eyebrow){font-size:13px}.signin-record{display:none}.signin-card{padding:25px}.signin-card h2{font-size:38px}}
+
+/* Disclosure cards: consistent inset, breathing room and aligned copy starts. */
+.limits-page .limits-grid{gap:28px;align-items:stretch}
+.limits-page .limits-grid article{padding:32px;text-align:left;display:flex;flex-direction:column;align-items:flex-start}
+.limits-page .limits-grid article>.icon{display:block;width:22px;height:22px;margin:0 0 20px;flex:none}
+.limits-page .limits-grid article>h3{font-size:32px;line-height:1.12;min-height:2.24em;margin:0 0 18px;letter-spacing:-.025em;max-width:100%;text-wrap:balance}
+.limits-page .limits-grid article>p{margin:0;font-size:14px;line-height:1.8;max-width:52ch}
+@media(max-width:1100px) and (min-width:761px){.limits-page .limits-grid article{padding:28px}.limits-page .limits-grid article>h3{font-size:28px}.limits-page .limits-grid article>p{font-size:13px}}
+@media(max-width:760px){.limits-page .limits-grid{gap:20px}.limits-page .limits-grid article{padding:26px 24px}.limits-page .limits-grid article>.icon{margin-bottom:18px}.limits-page .limits-grid article>h3{font-size:28px;min-height:0;margin-bottom:16px}.limits-page .limits-grid article>p{font-size:13px;line-height:1.8}}

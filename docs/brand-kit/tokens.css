@@ -1,0 +1,73 @@
+@font-face{font-family:Newsreader;src:url("assets/fonts/newsreader-variable.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Public Sans";src:url("assets/fonts/publicsans-variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+:root{
+ --color-paper: #F5F0E6;
+ --color-surface: #FFFCF5;
+ --color-limestone: #E6DCCB;
+ --color-sage: #DDE2D3;
+ --color-clay: #F1DED1;
+ --color-mushroom: #E2DED5;
+ --color-ink: #262B26;
+ --color-tobacco: #3C2F25;
+ --color-muted: #62665D;
+ --color-brass: #9B6C3C;
+ --color-copper: #B66745;
+ --color-line: #C8BDA9;
+ --color-border-strong: #807565;
+ --color-success: #355B44;
+ --color-error: #963C2D;
+ --color-warning: #835B1C;
+ --paper: var(--color-paper);
+ --surface: var(--color-surface);
+ --limestone: var(--color-limestone);
+ --sage: var(--color-sage);
+ --clay: var(--color-clay);
+ --mushroom: var(--color-mushroom);
+ --ink: var(--color-ink);
+ --tobacco: var(--color-tobacco);
+ --muted: var(--color-muted);
+ --brass: var(--color-brass);
+ --copper: var(--color-copper);
+ --line: var(--color-line);
+ --border-strong: var(--color-border-strong);
+ --success: var(--color-success);
+ --error: var(--color-error);
+ --warning: var(--color-warning);
+ --canvas: var(--color-paper);
+ --surface: var(--color-surface);
+ --text-primary: var(--color-ink);
+ --text-secondary: var(--color-muted);
+ --action-bg: var(--color-ink);
+ --action-text: var(--color-paper);
+ --action-hover: var(--color-tobacco);
+ --focus: var(--color-ink);
+ --border: var(--color-border-strong);
+ --divider: var(--color-line);
+ --status-success: var(--color-success);
+ --status-error: var(--color-error);
+ --status-pending: var(--color-warning);
+ --module-authority: var(--color-sage);
+ --module-scope: var(--color-paper);
+ --module-mandates: var(--color-clay);
+ --module-receipts: var(--color-limestone);
+ --module-reconciliation: var(--color-mushroom);
+ --font-display: "Newsreader", Georgia, serif;
+ --font-body: "Public Sans", Arial, sans-serif;
+ --space-0: 0px;
+ --space-2: 2px;
+ --space-4: 4px;
+ --space-8: 8px;
+ --space-12: 12px;
+ --space-16: 16px;
+ --space-24: 24px;
+ --space-32: 32px;
+ --space-48: 48px;
+ --space-64: 64px;
+ --space-96: 96px;
+ --space-128: 128px;
+ --space-160: 160px;
+ --radius-control:4px; --radius-panel:8px; --radius-popover:12px; --ease:cubic-bezier(.22,1,.36,1); --shadow-panel:0 8px 24px rgba(60,47,37,.08); --shadow-hover:0 14px 32px rgba(60,47,37,.12); --container:1280px;
+}
+
+:root{--text-display:clamp(3rem,6.667vw,6rem);--text-page:clamp(2.75rem,5vw,4.5rem);--text-section:clamp(2.25rem,3.89vw,3.5rem);--text-card:clamp(1.75rem,2.223vw,2rem);--text-body:1.125rem;--text-ui:.875rem;--text-caption:.75rem;--leading-display:1;--leading-body:1.6;--tracking-display:-.025em;--tracking-eyebrow:.12em;--control-height:48px;--focus-width:3px;--focus-offset:5px;--z-content:1;--z-sticky:20;--z-menu:30;--z-modal:40;}
+@media(max-width:650px){:root{--text-body:1rem;}}

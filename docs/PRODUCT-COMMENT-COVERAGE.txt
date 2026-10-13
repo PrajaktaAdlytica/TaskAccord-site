@@ -1,0 +1,11 @@
+All five product detail pages / seven-comment coverage
+1 Hero visual: explicit module-specific four-stage motion story.
+2 Main diagram: independent four-stage story, final human gate/rejection/mismatch hold.
+3 Job section: module-coloured survey paper texture.
+4 Numbered steps: module material ground and ivory paper panels.
+5 Input/exception section: lightly textured ruled-paper surface and framed definition list.
+6 Capture: full Authority → Scope → Changes → Receipt → Reconciliation sequence on every module; Pause, Replay and manual view selection.
+7 Closing invitation: textured deep-sage/ivory contrast.
+
+All stories retain synthetic/non-binding markings. No authority validation, acceptance, payment or settlement is implied.
+Assets reused; no new generation. Screenshots: screenshots/product-refinement.

@@ -1,0 +1,24 @@
+TaskAccord exact selected visual assets — 12 October 2026
+
+Source truth:
+/Users/prajaktagaikwad/Downloads/ChatGPT Image 12 Oct 2026, 17_20_16.png — homepage
+/Users/prajaktagaikwad/Downloads/ChatGPT Image 12 Oct 2026, 17_19_58.png — separate pages
+
+Built-in ImageGen used once per hero (three calls total including the receipt panel), preserving supplied composition/materials and removing baked webpage UI so typography and controls are actual HTML.
+
+Homepage normalized prompt: Extract the exact top hero scene (source y0..686), preserve cream survey terrain, Alder Analytics/Pine Research engravings, contour details, copper bridge, M-DEMO-1 research summary / $120 synthetic mandate, rejected $180 branch, compass, lighting and perspective. Remove only navbar/logo/CTA, heading/subhead/buttons and bottom journey controls. Restore their underlying map surfaces. Landscape 1536 x 1024; no new objects or simplified geometry.
+Saved master: public/assets/images/survey-exact-background.png
+Runtime equivalent: public/assets/images/survey-exact-background.webp (quality 95, unchanged composition)
+
+Mesa normalized prompt: Extract exact top hero (source y0..665), preserve colossal aged brass arch, suspended paper, stone terraces, river, foliage, light, ribbon, carved wall words and original framing. Remove navbar, left webpage copy/buttons, bottom UI and lower sections. Blank only task slip for native HTML fields, remove seals there. Landscape 1536 x 1024; no alternate composition/models.
+Saved master: public/assets/images/mesa-exact-background.png
+Runtime equivalent: public/assets/images/mesa-exact-background.webp
+Minor asset deviation: ribbon wording was removed by the extraction tool. Primary carved wording/material/ribbon shape are preserved. No extra generation was made.
+
+Other imagery: supplied original card and lower-section illustration regions are presented directly from the source images with clipped SVG image viewports, not regenerated, redrawn or claimed as product screenshots. Original artwork-integrated text is retained. All live product captures remain genuine renders of the synthetic workspace.
+
+Approved Accord Span / TaskAccord identity supersedes the provisional logos and lowercase wordmarks printed in the old concept images. Canonical research summary / M-DEMO-1 data and nonbinding disclaimers supersede illustrative churn-analysis fields in the concept.
+
+Mesa receipt normalized prompt: Extract the original lower-left stone/paper/foliage/river scene; exclude webpage copy/footer. Preserve original material and perspective. Correct task to Research summary and change request to $180 USD — rejected; retain M-DEMO-1, Alder Analytics → Pine Research, $120 USD ceiling, human acceptance pending, synthetic/non-binding markings and timestamp.
+Saved master: public/assets/images/mesa-receipt-exact.png
+Runtime: public/assets/images/mesa-receipt-exact.webp (quality 95).

@@ -1,0 +1,2 @@
+Lucide static 1.55.0
+Source: https://registry.npmjs.org/lucide-static/-/lucide-static-1.55.0.tgz

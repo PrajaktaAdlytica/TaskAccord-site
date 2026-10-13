@@ -1,0 +1,19 @@
+{
+  "watermark": "DEMO — SYNTHETIC SAMPLE DATA / CONCEPT PREVIEW / SIMULATED; NON-BINDING",
+  "fixture_version": "1.0",
+  "synthetic": true,
+  "mandate_id": "M-DEMO-1",
+  "buyer_entity": "Alder Analytics",
+  "supplier_entity": "Pine Research",
+  "ceiling_minor_units": 12000,
+  "currency": "USD",
+  "scope_version": "SCOPE-DEMO-v1",
+  "simulated_signature_id": "SIM-M-DEMO-1",
+  "receipt_id": "R-DEMO-1",
+  "acceptance_status": "Pending human review",
+  "settlement_status": "No actual settlement",
+  "source_ref": "E-DEMO-3",
+  "reviewer": "Mara Ellis",
+  "event_date": "2026-10-08",
+  "next_action_at": "2026-10-09T10:00:00Z"
+}

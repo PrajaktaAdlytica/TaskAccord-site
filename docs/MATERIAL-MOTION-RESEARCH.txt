@@ -1,0 +1,30 @@
+TaskAccord material and motion refinement — 13 October 2026
+Research via official Perplexity MCP / high research preset.
+
+Primary references reviewed
+Modern Treasury: https://www.moderntreasury.com/
+Product hierarchy and specific operational jobs are the reference, not a claim that their site uses the proposed TaskAccord shutter effect.
+Ironclad platform: https://ironcladapp.com/product/ai-based-contract-management
+Named lifecycle responsibilities and concrete product evidence are the reference. No layout or artwork copied.
+MDN clipping: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Masking/Clipping
+MDN animation: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation
+MDN animation play state: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-play-state
+W3C pause/stop/hide: https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide
+
+TaskAccord design decisions (our proposals, not effects attributed to those websites)
+- Original cotton rag / survey-paper texture: ivory quiet reading area, visible fibre detail, restrained sage and brass contours. New asset survey-paper-hero-v2.webp (~407 KB). Native HTML remains above it.
+- Six workflow links use five staggered horizontal material slats, revealing behind unchanged text over about 420–560ms. Each has a distinct sage/clay/limestone/mushroom tint. Keyboard focus gets the same reveal. Coarse/touch layouts show the material without needing hover.
+- Pricing cards use a restrained 3px lift, tobacco border, soft shadow and expanding top rule, with focus-within equivalence. Price and hypothesis labels never change.
+- Hero record traces fixed facts with brief emphasis. Original diagram geometry is now inline SVG so connectors, attempted proposal, receipt milestones and invoice mismatch have specific controlled motion.
+- Genuine prototype walkthrough changes among five actual screenshot captures, then holds at the mock mismatch. Direct selection pauses progression; Replay restarts. No generated UI screenshot or simulated evidence is passed off as a live product.
+- Pause controls are shared across illustrative sequences. IntersectionObserver and document visibility stop work off-screen/hidden; media-query changes switch to a still view. All core labels and amounts remain readable. Reduced motion disables decorative transitions; hover is not required for information.
+
+Background variation
+Hero = archival survey paper.
+Product evidence = sage-ivory material wash / framed genuine capture.
+Owners = sage linen paper.
+Ecosystem = pale sand survey sheet.
+Commercial = warm clay paper; ivory and sage pricing cards.
+These colours come from the approved TaskAccord palette. No broad AI gradient or restored camera journey.
+
+This is design and interaction research; no claims about legal authority, product demand or operating capability changed.

@@ -1,0 +1,14 @@
+{
+  "revision": "User supplied video intro above homepage hero",
+  "path": "screenshots/video-intro",
+  "captures": {
+    "desktop-intro.png": [
+      1440,
+      1000
+    ],
+    "mobile-intro.png": [
+      390,
+      844
+    ]
+  }
+}

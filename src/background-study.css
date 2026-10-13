@@ -1,0 +1,13 @@
+.background-study{position:relative;width:100%;height:100svh;min-height:640px;overflow:hidden;background:#eee5d6;color:#292b26}
+.study-canvas{position:absolute;inset:0}.study-canvas canvas{display:block;width:100%;height:100%}
+.study-header{position:absolute;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:28px 48px;z-index:2;border:0;background:none}
+.study-header img{width:206px;height:auto}.study-header>span{font:12px 'Public Sans',sans-serif;letter-spacing:.06em}.study-header a{font:12px 'Public Sans',sans-serif;border:1px solid #8a7963;border-radius:3px;padding:11px 16px;color:inherit;text-decoration:none;background:#f5f0e63b}
+.study-heading{position:absolute;top:14%;left:50%;transform:translateX(-50%);width:80%;text-align:center;pointer-events:none}
+.study-heading p{font:10px 'Public Sans',sans-serif;letter-spacing:.24em;margin:0 0 20px;color:#645d4e}
+.study-heading h1{font:500 clamp(54px,6.8vw,98px)/.93 'Newsreader',Georgia,serif;letter-spacing:-.045em;margin:0}
+.study-heading>span{display:block;font:14px 'Public Sans',sans-serif;line-height:1.6;margin-top:22px}
+.study-controls{position:absolute;left:0;right:0;bottom:0;padding:19px 32px;display:flex;gap:20px;align-items:center;justify-content:space-between;background:linear-gradient(transparent,#eee5d6d9);font:10px 'Public Sans',sans-serif;letter-spacing:.09em;color:#514837;border:0}
+.study-controls i{display:inline-block;width:3px;height:3px;vertical-align:middle;margin:0 9px;background:#9a7c50;border-radius:50%}
+.study-controls button{border:1px solid #8c7c66;background:#f5f0e6dd;color:#2e3028;padding:12px 17px;border-radius:3px;cursor:pointer;font:12px 'Public Sans',sans-serif;letter-spacing:0}
+.study-controls button:hover{background:#fffaf0}.study-controls button:focus-visible{outline:3px solid #2e3028;outline-offset:3px}
+@media(max-width:700px){.background-study{min-height:560px}.study-header{padding:22px}.study-header img{width:150px}.study-header>span{display:none}.study-header a{font-size:10px;padding:9px}.study-heading{top:18%;width:94%}.study-heading h1{font-size:58px}.study-heading p{font-size:8px}.study-heading>span{font-size:12px}.study-controls{padding:15px 18px;flex-wrap:wrap;gap:12px;font-size:8px}.study-sample{display:none}}

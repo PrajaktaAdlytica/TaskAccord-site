@@ -1,0 +1,163 @@
+[
+  {
+    "route": "/product",
+    "bodyWidth": 410,
+    "broken": [],
+    "h1": "A record for everytask boundary.",
+    "width": 390
+  },
+  {
+    "route": "/product/authority",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "The people behind the permission.",
+    "width": 390
+  },
+  {
+    "route": "/product/scope",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Agree the work before it moves.",
+    "width": 390
+  },
+  {
+    "route": "/product/mandates",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "A ceiling that stays a ceiling.",
+    "width": 390
+  },
+  {
+    "route": "/product/receipts",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "The receipt arrives. People decide.",
+    "width": 390
+  },
+  {
+    "route": "/product/reconciliation",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "One record, through the final reference.",
+    "width": 390
+  },
+  {
+    "route": "/how-it-works",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "One task.Every boundary visible.",
+    "width": 390
+  },
+  {
+    "route": "/use-cases",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "One pair.A shared next decision.",
+    "width": 390
+  },
+  {
+    "route": "/pilot",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Paper before rail.Evidence before expansion.",
+    "width": 390
+  },
+  {
+    "route": "/sandbox",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Bring the pair.Define the task.",
+    "width": 390
+  },
+  {
+    "route": "/limits",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "A clear record.An honest boundary.",
+    "width": 390
+  },
+  {
+    "route": "/resources",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "A better first question.A narrower first task.",
+    "width": 390
+  },
+  {
+    "route": "/resources/protocol-boundaries",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Communication.Payment intent.Human authority.",
+    "width": 390
+  },
+  {
+    "route": "/about",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "A small task.A clear accord.",
+    "width": 390
+  },
+  {
+    "route": "/contact",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Start withone concrete task.",
+    "width": 390
+  },
+  {
+    "route": "/privacy",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Your information stays bounded.",
+    "width": 390
+  },
+  {
+    "route": "/terms",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Terms of this preview.",
+    "width": 390
+  },
+  {
+    "route": "/accessibility",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "A journey everyone can inspect.",
+    "width": 390
+  },
+  {
+    "route": "/preview-access",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Inspect the workflow.Keep it synthetic.",
+    "width": 390
+  },
+  {
+    "route": "/demo",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "One task.A visible decision.",
+    "width": 390
+  },
+  {
+    "route": "/demo/tasks",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Task queue",
+    "width": 390
+  },
+  {
+    "route": "/demo/report/M-DEMO-1",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "One traceable task.",
+    "width": 390
+  },
+  {
+    "route": "/demo/data-dictionary",
+    "bodyWidth": 390,
+    "broken": [],
+    "h1": "Sample data dictionary",
+    "width": 390
+  }
+]

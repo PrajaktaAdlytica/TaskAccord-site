@@ -1,0 +1,11 @@
+CONFIRMED BY USER
+Homepage: prior visual option 3 / Surveyor's Crossing.
+All other separate public pages: prior visual option 1 / Mesa Passage.
+Old American / Texas material influence; no flags. Continuous cinematic homepage 3D environment with scroll-linked camera. Each card/module has its own background, illustration mechanism and interaction.
+
+PROPOSED IN THIS HANDOFF
+Newsreader + Public Sans; paper/ivory/limestone/sage/ink/tobacco/brass/copper palette; 4px spacing system; shutter-label navigation/button behavior. Logo A / Accord Span recommended; logo choice awaits user selection. Footer LinkedIn/Crunchbase assets included; actual profile destinations unset.
+
+12 October 2026 update: user selected logo A / Accord Span. Wordmark casing is under refinement: TaskAccord, taskAccord, Task Accord, TASK ACCORD, TASKACCORD. TaskAccord is recommended, not yet selected.
+
+FINAL USER SELECTION: Option 1 wordmark / TaskAccord, paired with logo A / Accord Span. Use this casing for the brand; lowercase taskaccord for technical identifiers and URLs.

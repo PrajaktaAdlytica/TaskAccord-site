@@ -1,0 +1,89 @@
+TASKACCORD / SOURCE AND LICENSE REGISTER / 12 OCTOBER 2026
+
+ORIGINAL IDENTITY ASSETS
+Three symbol candidates, outlined Taskaccord wordmark, five workflow diagrams and token files are original artwork created for this project. The wordmark uses Newsreader 550 at optical size 32 with its font's kerning before outline conversion. Symbol A has been selected by the user; TaskAccord wordmark is approved by the user. Neither the company name nor these marks have received professional trademark clearance.
+
+LOGO RESEARCH AND CONTEXT
+Taskade current identity: https://www.taskade.com/press
+Adjacent Accord sales software: https://inaccord.com/blog-posts/the-next-era
+Adjacent Ontra Accord contract product: https://www.ontra.ai/products/accord/
+Adjacent Accord Contracts: https://www.accordcontracts.com/about-us/
+Exact-name web search was inconclusive. Search results do not establish availability or legal clearance. No competitor logo artwork is included in Taskaccord's marks.
+
+HISTORICAL MATERIAL RESEARCH — INSPIRATION ONLY
+UT Texas topographic maps: https://maps.lib.utexas.edu/maps/topo/texas/
+The collection identifies USGS maps as public domain unless otherwise noted; check particular sheets before any reproduction.
+Texas GLO services/reproduction: https://www.glo.texas.gov/archives-and-heritage/visit-archives/services
+Briscoe copyright statement: https://digitalcollections.briscoecenter.org/copyright
+Houston Printing Museum collection: https://printingmuseum.org/exhibitions/collections-2/
+No archive image was reproduced or traced in supplied assets.
+
+FONT ASSETS
+Newsreader: https://github.com/productiontype/Newsreader
+Public Sans: https://github.com/uswds/public-sans
+Downloaded variable TTFs from the official Google Fonts repository:
+https://github.com/google/fonts/tree/main/ofl/newsreader
+https://github.com/google/fonts/tree/main/ofl/publicsans
+Converted to WOFF2 for self-hosted website use. Original OFL license files included alongside font binaries. Font redistributions must preserve those licenses. No third-party font requests occur in the brand guide.
+
+UI ICONS
+36 Lucide SVGs extracted unchanged from lucide-static. The exact package version and source tarball are in assets/icons/package-version.txt. License notice is assets/icons/LUCIDE-LICENSE.txt.
+https://lucide.dev/license/
+https://github.com/lucide-icons/lucide
+Use controls at 20–24px. They are UI assets, not Taskaccord logo candidates or evidence of certification.
+
+LINKEDIN — OFFICIAL ASSETS, UNMODIFIED
+https://brand.linkedin.com/in-logo
+https://brand.linkedin.com/downloads
+Source package: https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/logos/in-logo.zip
+Approved black, white and blue in-logo PNGs supplied. Use only the permitted profile/social-link context and approved colors. Do not imply affiliation or endorsement. Taskaccord profile URL is not yet provided; guide shows a non-link asset specimen.
+
+CRUNCHBASE — OFFICIAL ASSETS, UNMODIFIED
+https://about.crunchbase.com/press
+https://about.crunchbase.com/terms-of-service
+Blue wordmark source on official press page:
+https://cdn.prod.website-files.com/687e6d0359c517be389ea464/699cd6b24bf1f2f372ff4740_cb_logo_bluevector%20(1).svg
+Official website profile/app icon:
+https://cdn.prod.website-files.com/687e6d0359c517be389ea464/69257c9295545c9acddcaa0d_cb-webclip-256x256.png
+Asset availability is not a general trademark license. Use the profile mark only in an appropriate permitted link context after confirming the destination and use. Do not recolor, imply partnership or label a company profile as existing before it exists. Guide shows a non-link asset specimen.
+
+ORIGINAL GENERATED RASTER ASSETS
+Built-in ImageGen used; no fallback CLI/model downgrade. PNG masters and WebP derivatives supplied:
+assets/images/homepage-survey-poster.png
+assets/images/secondary-mesa-poster.png
+assets/images/ivory-paper-texture.png
+The two selected concept images in assets/references are prior AI-generated visual directions approved by the user. They are not live product captures. Prompt specifications are recorded in IMAGEGEN-PROMPTS.txt.
+Do not present any raster landscape as a working 3D environment. Actual 3D geometry, textures, camera mapping and performance implementation remain future work.
+
+ACCESSIBILITY PRIMARY SOURCES
+https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html
+https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html
+https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html
+https://www.w3.org/WAI/WCAG22/Techniques/css/C39
+Flat-color calculated results in contrast-report.json. Interaction-motion reduction is included as a design preference; WCAG 2.3.3 is AAA, not an AA certification claim. Textured/image backgrounds require in-situ QA.
+
+RESEARCH METHOD
+Perplexity high research preset plus focused primary-source searches; official sources preferred for licenses, fonts, brand asset rules and accessibility. Historical/art-direction recommendations are design inferences, not measured conversion findings. No legal clearance or brand-owner permission has been invented.
+
+WORDMARK REFINEMENT
+Five original outlined lockups use Newsreader weight 500 / optical size 32 with casing-specific tracking and optical centering. assets/wordmarks/ contains ink, paper and black SVG variants and ink PNGs. wordmark-options.json records parameters.
+
+FINAL IDENTITY: TaskAccord + Accord Span (A). Approved by the user. Refined selected wordmark: Newsreader 500 / optical size 32 / tracking −0.005em, outlined with kerning and optical centering. Previous candidate assets and comparison boards are archival.
+
+IMPLEMENTATION ADDENDUM — 12 October 2026
+Homepage geometry, bridge, arches, dial, rocks, trees, task artifacts and paper creatures: original native Three.js geometry authored for TaskAccord. Three.js dependency uses its MIT license.
+Limestone / brass albedo textures: original generated bitmap assets, prompts and master PNGs retained in work/. Deployed assets are compressed WebP.
+Diagram motion: original animation applied to the approved original SVG diagram assets. Reduced-motion media query disables motion.
+Public product images in assets/screenshots: genuine renders of this local implementation, with synthetic labels; not customer screenshots or an operating product.
+Required screenshot evidence in screenshots/: genuine IAB browser captures, viewport and route recorded in manifest. QA-only side-by-side comparisons are explicitly labeled comparisons, not product screenshots.
+No Modern Treasury or Ironclad layouts, customer logos, dashboards or copy were copied into the website. They informed product-diagram specificity and restrained SaaS interaction quality only.
+
+12 October 2026 artwork-camera revision:
+- The user's clarified direction uses the approved Surveyor's Crossing and Mesa Passage bitmap artwork with native-scroll pan/zoom. Procedural landscape reconstruction is removed from the live website.
+- Card art in public/assets/images/{survey,mesa}-design-reference.png is copied from the original approved generated visual concepts in the brand kit. SVG viewports show only the relevant original illustration areas; these are labeled synthetic illustrations and are not product screenshots.
+- Scope/receipt diagrams use native HTML/CSS, existing licensed icons and the original approved paper texture. All functional sample values retain the research-stage demo boundary.
+
+Exact-reference revision: user-supplied Surveyor/Mesa originals; three built-in ImageGen extraction/edit calls; native HTML interface and direct clipped original card illustrations. Prompts and provenance: EXACT-TARGET-ASSETS.txt. Genuine renders: screenshots/exact-target.
+
+13 October browser-comment refinement: one original survey-paper texture generated with the built-in ImageGen tool; prompt/provenance in MATERIAL-MOTION-ASSET.txt. Inline editable diagrams preserve original brand semantics; actual captures remain unchanged. Perplexity high-preset research and direct primary references: MATERIAL-MOTION-RESEARCH.txt.

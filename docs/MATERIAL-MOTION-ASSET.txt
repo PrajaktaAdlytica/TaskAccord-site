@@ -1,0 +1,8 @@
+Original hero background created with built-in ImageGen, one call; 13 October 2026.
+Asset: public/assets/images/survey-paper-hero-v2.png (master)
+Runtime: public/assets/images/survey-paper-hero-v2.webp (quality 90, original composition)
+Generation source: /Users/prajaktagaikwad/.codex/generated_images/01a12ebc-cda2-74a0-bea6-c0e9f1c3a07a/exec-4169c5db-8919-4340-a3e7-f0a94be962ce.png
+
+Prompt: Create one premium website background texture asset only, landscape 1536x1024. TaskAccord brand: early American/Texas survey archive paper, ivory limestone, faded sage, tobacco-brass ink. Flat cotton rag paper with delicate fibres, uneven pigment and faint lithographic survey contours. Creamy quiet centre and left, restrained sage at far right, pale warm sand in corners. Fine blind-embossed contour marks at top-right/bottom-left only. No text, logo, numerals, flags, objects, scene, UI, cards, border or harsh shadow. Even soft daylight and crafted material fidelity.
+
+The result was inspected before implementation. WebP conversion only; no bitmap editing/reconstruction. This is background artwork, not a product screenshot. SVG diagrams are native code based on original brand-kit geometry; no image generation was used for diagrams, animations or product captures.

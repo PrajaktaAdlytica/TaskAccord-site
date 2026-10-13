@@ -1,0 +1,13 @@
+TASKACCORD BRAND GUIDE QA / 12 October 2026
+
+Verified in the Codex in-app browser at 1440 × 1000 and 390 × 844. Mobile document width equals the viewport (390px); wide specification tables have local horizontal scroll. Logo candidates inspected in ink, reverse and favicon sizes. Local asset references verified present. Three candidate multi-size ICOs and SVG manifests included.
+
+Component checks: rejected-change replay produces $180 rejected with unchanged $120 ceiling; reset returns to baseline; Product menu opens and Escape closes it with focus returned to summary; Tab reaches the shutter CTA with visible focus. Shutter accessible label remains a single label; duplicated visual label is aria-hidden. Reduced-motion CSS removes label flips, paper lift and smooth scrolling; manual OS reduced-motion emulation was not performed.
+
+Contrast: ink/paper 12.70:1; ink/sage 10.92:1; secondary text/ivory 5.73:1; success/sage 5.82:1; error/clay 5.40:1; pending/paper 5.32:1. Brass/paper 4.02:1 is excluded from normal text. Strong border/ivory 4.41:1 is sufficient for required UI boundaries, not chosen as small body text. Actual future website image-overlay contrast requires page QA.
+
+Original hero WebP is approximately 259KB; secondary poster approximately 293KB; paper texture approximately 228KB. No analytics, third-party scripts, lead submission or live payment/auth calls in this guide. Links to external source pages are reader-controlled.
+
+Limitations: this is a reviewed brand/component guide, not the built public website, full product demo, accessibility certification, legally cleared brand, or live WebGL environment. 3D geometry/mobile camera implementation and product screenshots remain future deliverables. Paper tile edges have not been certified seamless. Official LinkedIn/Crunchbase destination URLs remain unset.
+
+Screenshots: brand-guide-desktop.jpg, brand-guide-mobile.jpg, brand-guide-interactions.jpg. Logo-options.png is a vector-artwork comparison board, not a browser/product capture.

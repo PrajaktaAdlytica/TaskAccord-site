@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01-TaskAccord",
+    "spelling": "TaskAccord",
+    "weight": 500,
+    "optical_size": 32,
+    "tracking_em": -0.005,
+    "recommendation": "Recommended: clear two-part name, compact and assured.",
+    "status": "Wordmark exploration; symbol A approved"
+  },
+  {
+    "file": "02-taskAccord",
+    "spelling": "taskAccord",
+    "weight": 500,
+    "optical_size": 32,
+    "tracking_em": -0.005,
+    "recommendation": "More software-like; the internal capital is prominent.",
+    "status": "Wordmark exploration; symbol A approved"
+  },
+  {
+    "file": "03-Task-Accord",
+    "spelling": "Task Accord",
+    "weight": 500,
+    "optical_size": 32,
+    "tracking_em": 0,
+    "recommendation": "More editorial; adds a visible pause between the two words.",
+    "status": "Wordmark exploration; symbol A approved"
+  },
+  {
+    "file": "04-TASK-ACCORD",
+    "spelling": "TASK ACCORD",
+    "weight": 500,
+    "optical_size": 32,
+    "tracking_em": 0.065,
+    "recommendation": "More institutional; wider footprint in navigation.",
+    "status": "Wordmark exploration; symbol A approved"
+  },
+  {
+    "file": "05-TASKACCORD",
+    "spelling": "TASKACCORD",
+    "weight": 500,
+    "optical_size": 32,
+    "tracking_em": 0.04,
+    "recommendation": "A solid nameplate; stronger, denser and less conversational.",
+    "status": "Wordmark exploration; symbol A approved"
+  }
+]

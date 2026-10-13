@@ -1,0 +1,18 @@
+Browser comment coverage — 18 requested changes
+1 Hero: original survey-paper texture applied.
+2 Task record: animated handoff and sequential emphasis, acceptance still pending.
+3–8 Six workflow tiles: distinct material shutter reveals; hover/focus equivalent; touch always legible; linked to relevant modules.
+9 Authority diagram: legal-entity emphasis, travelling connector, compulsory human gate.
+10 Receipt diagram: evidence route and ordered milestone emphasis; pending state retained.
+11 Reconciliation diagram: connected records and mismatch emphasis; no settlement claim.
+12 Product evidence section: sage-ivory textured background and paper frame.
+13 Product evidence: five-view automatic walkthrough of genuine captures; direct views, Pause, Replay, final mismatch hold.
+14 Owners section: sage linen-paper background.
+15 Ecosystem section: pale sand survey material.
+16 Ecosystem diagram: principal → proposed layer → adjacent protocol emphasis with Pause/Replay.
+17 Pricing section: warm clay paper ground, contrasting ivory/sage cards.
+18 Pricing hovers: 3px lift, tobacco border, shadow and top-rule expansion; keyboard equivalence; reduced-motion support.
+
+Research: MATERIAL-MOTION-RESEARCH.txt
+Asset: MATERIAL-MOTION-ASSET.txt
+Current screenshots: screenshots/material-motion

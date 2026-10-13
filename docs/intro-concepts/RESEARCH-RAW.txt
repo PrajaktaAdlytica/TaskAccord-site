@@ -1,0 +1,200 @@
+**Recommended direction: an editorial workflow film, 16 seconds, silent.** Make the *scope* the visual anchor: an ivory task sheet moves between buyer and supplier, a clay $180 revision is visibly rejected against an approved **$120 ceiling**, and a **$120 receipt** arrives with **human acceptance pending**. Treat it as an explicitly labeled *illustrative research scenario*, not footage of a live product or evidence of a completed transaction.
+
+## Six primary-source motion references
+
+The pacing and adaptation notes below are **creative readings**, not claims that the source films use a particular shot timing. Lengths are given only where the creator publishes them.
+
+| Reference / specific URL | Approach | Pacing | Shot transitions | Composition | Published length | What TaskAccord can adapt originally |
+|---|---|---|---|---|---|---|
+| [BUCK — The Outlook: Firebrand](https://buck.co/work/the-outlook-firebrand) [web:94] | Tactile editorial type: paper-like texture, print marks, commanding typography and deliberately low-frame-rate motion. [web:94] | Brief typographic impacts followed by readable holds. | Print impressions, offset layers and restrained stop-motion-like repositioning. | Large type and small sticker-like marks on a reduced palette. | Not stated. | Give Newsreader headlines the authority of a printed heading; use Public Sans for quiet scope and status labels. Keep the texture subtle rather than borrowing the project’s rebellious tone. |
+| [BUCK — Asana Brand Film](https://buck.co/work/asana-brand-film) [web:3] | Enterprise-software storytelling through mid-century collage integrating UI, typography and human hands; colored dots stand for collaborators. [web:3] | Let one action register before the next object changes. | A hand or paper edge can move the viewer from one state to another instead of cutting to unrelated screens. | A legible task card amid generous negative space; people represented by roles, not fictitious portraits. | Not stated. | Borrow the **principle** of tangible, human-directed state changes—not Asana’s collage, hands or dots verbatim. |
+| [Modern Treasury — The Making of Our First Brand Video](https://www.moderntreasury.com/journal/the-making-of-our-first-brand-video) [web:76] | Physical system storytelling: its team and Near Future developed a practical mechanism with coins, ramps and a building, with continuously moving parts rather than a sequential Rube Goldberg trigger. [web:76] | A steady system rhythm rather than an escalating montage. | Follow a single object along a route; change state at a clearly marked junction. | An overview establishes the mechanism; details make its rules intelligible. | Not stated. | Translate the **route-and-gate** idea into a flat buyer–supplier scope diagram. Do **not** borrow the coin metaphor: TaskAccord’s receipt is not a payment claim. |
+| [Ordinary Folk — The Trade Desk: Solimar](https://www.ordinaryfolk.co/project/the-trade-desk-solimar) [web:108] | Short-form website-motion production reference: the studio describes illustrations, a UI sizzle reel, loops, a **15-second trailer**, a launch video and a system designed for different screen resolutions. [web:108] | Design a compact cut as its own piece, not merely a sped-up long film. | Reuse one graphic motif across a trailer, loop and still. | Plan legible compositions at several aspect ratios from the start. | **0:48** is the duration listed for the project-page montage; the page separately mentions a **15-second trailer**. [web:108] | Build TaskAccord’s 16-second intro, mobile reframe and static poster from the same small set of designed states. |
+| [BUCK — Thorne](https://buck.co/work/thorne) [web:1] | Sculptural, material-based brand system: tactile warm colors, abstract sculptures, photography and motion that shifts between micro and macro; the case also identifies a **web montage**. [web:1] | Use one contemplative material reveal as a punctuation mark, not constant spectacle. | Match a close-up of a surface to its wider assembled form. | One warm, sculptural object against a controlled field. | Not stated. | Give the Accord Span/A a limestone-and-brass *material study* for the closing beat, while leaving the actual scope and statuses crisp, flat and readable. |
+| [ManvsMachine — iMac Pro: Algorithmic Architecture](https://mvsm.com/project/imac-pro) [web:55] | Sculptural CGI built from an algorithmic architectural structure, photographic textures and a system governing form and movement. [web:55] | A slow reveal can convey precision without a rapid feature reel. | Movement of one coherent form, rather than unrelated object swaps. | A monumental central silhouette with carefully lit surface detail. | Not stated. | Explore the A/Span as a single restrained, tactile form. Avoid suggesting that the sculpture itself demonstrates product functionality. |
+
+## Exactly three creative territories
+
+| Territory | Visual grammar | How the silent story reads | Trade-off |
+|---|---|---|---|
+| **1. The Scope Folio** | Ivory paper, limestone shadow, sage ruling, clay correction marks; Newsreader headlines and Public Sans annotations. Inspired by the *editorial principles* in BUCK’s Firebrand and Asana work. [web:94][web:3] | Pages reveal the approved task, a rejected revision, then a receipt awaiting a person’s decision. | Most distinctive and tactile; paper handling alone may obscure who made each decision. |
+| **2. The Accord Path — recommended** | A restrained editorial sheet **plus** a diagram: two role columns, one approved scope, one boundary, one pending endpoint. Takes the clarity of Modern Treasury’s physical-system idea without depicting money movement. [web:76] | The viewer follows one task through approved scope → rejected out-of-scope proposal → receipt → pending human acceptance. | Best balance of brand character and comprehension; demands meticulous label hierarchy. |
+| **3. The Material Span** | A sculptural limestone/brass A or bridge, with precise 2D labels appearing alongside it; informed by BUCK’s material system and ManvsMachine’s coherent CGI form. [web:1][web:55] | A boundary forms, stops an over-ceiling branch, then frames the pending receipt. | Strongest brand-signature potential, but the weakest choice if 3D beauty displaces the actual task states. |
+
+### Recommended 16-second cut: The Accord Path
+
+**Persistent small label:** “Illustrative research scenario.” These are proposed timings for TaskAccord—not reported timings of any reference film.
+
+| Time | Shot and on-screen copy | Motion and transition | Framing priority |
+|---|---|---|---|
+| **0:00–0:02** | Newsreader: **“One task. One approved scope.”** Accord Span draws a short sage rule. | Begin on a composed still; the rule reveals a single paper task sheet. | The statement must read immediately, even with sound off. |
+| **0:02–0:04.5** | Sheet between **Buyer** and **Supplier**: “Approved scope” · **“Ceiling $120.”** | A brass boundary settles around the sheet; no coins, checkout or payment UI. | Make the ceiling the clearest numeric label. |
+| **0:04.5–0:07.5** | A second slip enters: **“Revision $180”** → **“Rejected — above approved ceiling.”** | Slip approaches the boundary, stops, receives a clay rejection mark, and exits. Hold the rejected state long enough to read. | Keep **$180** and **Rejected** together; never make the revision appear approved or performed. |
+| **0:07.5–0:10.5** | Return to the original approved scope and **$120 ceiling**. | Match the departing slip’s edge to the original sheet’s edge; the approved path remains the only continuous line. | Re-establish that the rejected proposal did not change the scope. |
+| **0:10.5–0:13.5** | **“Receipt $120”** appears at the end of the path. | A receipt sheet arrives and stops. No “paid,” “settled,” “verified” or acceptance checkmark. | Distinguish receipt amount from ceiling by label, not color alone. |
+| **0:13.5–0:16** | **“Human acceptance pending”** beside the receipt; resolve to TaskAccord Span/A. | Hold the pending state, then make a small, calm mark reveal. **End rather than auto-looping the narrative.** | Leave both the pending status and brand legible in the final frame. |
+
+**Pacing rule:** one meaningful state change per shot, with the rejection and pending acceptance getting the longest readable holds. The edit should feel like following a document through a bounded decision, not watching a product demo.
+
+| Motion-ready still-image need | What to prepare |
+|---|---|
+| **Complete storyboard states** | Six approved stills corresponding to the shots above, including a fully readable rejection state and final pending state—not just attractive transition frames. |
+| **Layered editorial kit** | Separate paper faces/edges, fibers, shadows, sage rules, clay rejection mark, brass boundary, buyer/supplier labels, receipt and logo; establish type sizes and contrast before animation. |
+| **Brand-material study** | One optional limestone/brass Span/A render with lighting and texture passes. Use it at the close, not behind small financial labels. |
+| **Responsive and static masters** | A wide composition, a purpose-reframed narrow composition, and one standalone poster containing **approved scope, $120 ceiling, rejected $180 revision, $120 receipt, and human acceptance pending**. |
+
+**Placement and controls.** On desktop, give the diagram a broad central field with generous side margins; keep the hero headline and CTA *below* the film, not obscured by it. On mobile, recompose into a vertical sequence rather than cropping the desktop diagram: stack Buyer, scope and Supplier, and keep each amount adjacent to its status. Provide a visible **Pause/Play** control, play once by default, and show the complete static poster when `prefers-reduced-motion: reduce` is set. W3C guidance calls for a pause, stop or hide mechanism for qualifying automatically moving content lasting over five seconds; the reduced-motion media feature conveys a user preference to minimize nonessential motion. [web:139][web:138]
+
+Citations:
+[31] https://www.stashmedia.tv/zero-bucks-given-manvsmachine-keeps-it-kinetic-for-canva/
+[32] https://www.stashmedia.tv/tag/manvsmachine/
+[33] https://mammothicfilms.ca/animated-video-production-companies/
+[34] https://buck.co/work/thorne
+[35] https://www.stashmedia.tv/?s=ManvsMachine
+[36] https://www.stashmedia.tv/manvsmachine-and-smirnoff-are-better-together-in-we-do-we/
+[37] https://buck.co/work/asana-brand-film
+[38] https://www.stashmedia.tv/category/feed/graphic-design/
+[39] https://www.stashmedia.tv/category/motion-design/page/19/
+[40] https://www.stashmedia.tv/category/typography/page/2/
+[41] https://worldmetrics.org/service/motion-graphics/
+[42] https://worldmetrics.org/service/motion-graphic-design/
+[43] https://mvsm.com/project/film4
+[44] https://d1s1.com/client/Sonos
+[45] https://d1s1.com/studio/BUCK
+[16] https://stripe.com/careers/listing/motion-designer-stripe-identity/7769564
+[17] https://stripe.com/au/resources/more/how-to-start-a-production-company
+[18] https://stripe.com/customers/motion
+[19] https://stripe.com/resources/more/how-do-i-write-an-invoice-for-freelance-film-work
+[20] https://stripe.com/industries/media-entertainment
+[21] https://stripe.com/use-cases/creator-economy
+[22] https://stripe.com/use-cases/platforms
+[23] https://linear.app/brand
+[24] https://stripe.com/payments/checkout
+[25] https://stripe.com/payments
+[26] https://linear.app/careers/5b9997fd-7507-4437-8fd7-14178c99ab5d
+[27] https://linear.app/integrations/media-and-design
+[28] https://linear.app/contact/support
+[29] https://linear.app/contact
+[30] https://linear.app/careers/ea0b5868-6d7a-46fa-99d8-207cd19357a6
+[1] https://buck.co/work/thorne
+[2] https://buck.co/work/woolmark
+[3] https://buck.co/work/asana-brand-film
+[4] https://www.ordinaryfolk.co/project/deso-brand-videos
+[5] https://buck.co/work/circle-hq-screen
+[6] https://buck.co/work/shopify
+[7] https://buck.co/work/citrix
+[8] https://www.ordinaryfolk.co/project/webflow-a-new-era-of-no-code
+[9] https://buck.co/work/a-tiffany-holiday
+[10] https://buck.co/work/nothing-playground
+[11] https://buck.co/work/niantic
+[12] https://buck.co/work/playgrounds-in-motion
+[13] https://www.ordinaryfolk.co/project/webflow-welcome-to-the-age-of-no-code
+[14] https://www.ordinaryfolk.co/project/minima-manifesto
+[15] https://www.ordinaryfolk.co/project/ordinary-folk-reel-ii
+[61] https://mvsm.com/project/paper-pro
+[62] https://www.ordinaryfolk.co/project/introducing-spline
+[63] https://mvsm.com/project/born-mercurial
+[64] https://www.ordinaryfolk.co/project/minima-manifesto
+[65] https://mvsm.com/project/air-max-day-18
+[66] https://www.ordinaryfolk.co/project/google-search-on-2020
+[67] https://www.ordinaryfolk.co/project/deso-brand-videos
+[68] https://mvsm.com/project/air-max-kids
+[69] https://www.ordinaryfolk.co/project/cryptocubes
+[70] https://mvsm.com/project/canva-affinity
+[71] https://mvsm.com/project/bang-olufsen
+[72] https://mvsm.com/project/lifffe-ffforms
+[73] https://www.ordinaryfolk.co/project/webflow-welcome-to-the-age-of-no-code
+[74] https://buck.co/work/illumina
+[75] https://www.ordinaryfolk.co/project/praxis-the-redemptive-frame
+[76] https://www.moderntreasury.com/journal/the-making-of-our-first-brand-video
+[77] https://www.moderntreasury.com/journal/how-marketplaces-use-modern-treasury
+[78] https://www.moderntreasury.com/newsroom/press-releases/modern-treasury-announces-first-ai-platform-purpose-built-for-payments
+[79] https://linear.app/now/how-we-run-projects-at-linear
+[80] https://www.moderntreasury.com/journal/pre-built-uis
+[81] https://www.moderntreasury.com/resources/ebooks/build-production-ready-payouts
+[82] https://www.moderntreasury.com/modern-treasury-live
+[83] https://www.moderntreasury.com/
+[84] https://www.moderntreasury.com/products/payments
+[85] https://www.moderntreasury.com/customers/producepay
+[86] https://www.moderntreasury.com/journal/powering-new-product-growth-with-a-seamless-payment-operations-platform
+[87] https://linear.app/now/author/nan-yu
+[46] https://mvsm.com/project/canva-affinity
+[47] https://mvsm.com/project/versus
+[48] https://mvsm.com/project/film4
+[49] https://mvsm.com/project/airmax-day
+[50] https://mvsm.com/project/paper-pro
+[51] https://mvsm.com/project/editions
+[52] https://mvsm.com/project/paper-pro-move
+[53] https://mvsm.com/project/speaker-bag
+[54] https://mvsm.com/project/apple-screen
+[55] https://mvsm.com/project/imac-pro
+[56] https://mvsm.com/project/flyknit
+[57] https://mvsm.com/project/lexus
+[58] https://mvsm.com/project/gilga-farm
+[59] https://mvsm.com/project/lifffe-ffforms
+[60] https://mvsm.com/project/squarespace_brrch
+[111] https://linear.app/now
+[112] https://linear.app/now/how-we-redesigned-the-linear-ui
+[113] https://linear.app/now/behind-the-latest-design-refresh
+[114] https://linear.app/now/linear-liquid-glass
+[115] https://linear.app/now/how-we-run-projects-at-linear
+[116] https://linear.app/now/how-we-built-project-updates
+[117] https://linear.app/now/how-we-built-triage-intelligence
+[118] https://linear.app/now/how-we-use-linear-agent-at-linear
+[119] https://linear.app/now/fast-growing-startups-are-built-on-linear
+[120] https://linear.app/now/how-we-built-linear-agent
+[121] https://linear.app/now/author/nan-yu
+[122] https://linear.app/now/how-we-hire-at-linear
+[98] https://ramp.com/products
+[99] https://ramp.com/streamlined-approvals
+[100] https://docs.ramp.com/
+[101] https://support.ramp.com/introduction-to-homepage
+[102] https://docs.ramp.com/developer-api/v1/introduction
+[103] https://ramp.com/blog/simpler-more-efficient-expenses
+[104] https://support.ramp.com/vendor-approvals/
+[105] https://docs.ramp.com/developer-api/v1/build-with-ramp
+[106] https://docs.ramp.com/developer-api/v1/procurement
+[107] https://ramp.com/webinars/the-procurement-playbook
+[108] https://www.ordinaryfolk.co/project/the-trade-desk-solimar
+[109] https://www.ordinaryfolk.co/project/google-doodle-salsa
+[110] https://www.ordinaryfolk.co/project/rio-40
+[88] https://buck.co/work/7up
+[89] https://buck.co/work/thorne
+[90] https://buck.co/work/nothing-playground
+[91] https://buck.co/work/asana-brand-film
+[92] https://buck.co/work/misfits-market
+[93] https://buck.co/work/comfy-brand-refresh
+[94] https://buck.co/work/the-outlook-firebrand
+[95] https://buck.co/work/hbo-btw
+[96] https://buck.co/work/ea-sports-fc-24
+[97] https://buck.co/work/shopify-summit-2022
+[123] https://linear.app/now/coding-sessions-for-linear-agent
+[124] https://linear.app/now/author/nan-yu
+[125] https://linear.app/now/product-launches
+[126] https://linear.app/now/press
+[127] https://linear.app/method
+[128] https://linear.app/now/how-we-redesigned-the-linear-ui
+[129] https://linear.app/now/linear-liquid-glass
+[130] https://linear.app/now/craft
+[131] https://linear.app/integrations/media-and-design
+[132] https://linear.app/now/how-we-run-projects-at-linear
+[133] https://linear.app/now/a-design-reset
+[134] https://linear.app/now/community
+[135] https://linear.app/method/launching
+[136] https://linear.app/sitemap.xml
+[137] https://linear.app/docs/editor
+[138] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
+[139] https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide
+[140] https://www.w3.org/WAI/WCAG20/Understanding/pause-stop-hide.html
+[141] https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide
+[142] https://www.w3.org/WAI/GL/WCAG20/WD-UNDERSTANDING-WCAG20/time-limits-pause
+[143] https://www.w3.org/WAI/GL/2012/WD-UNDERSTANDING-WCAG20-20120726/time-limits-pause.html
+[144] https://www.w3.org/WAI/GL/2014/WD-UNDERSTANDING-WCAG20-20140107/time-limits-pause.html
+[145] https://www.w3.org/WAI/GL/2010/WD-UNDERSTANDING-WCAG20-20100128/time-limits-pause.html
+[146] https://www.w3.org/TR/2010/NOTE-UNDERSTANDING-WCAG20-20101014/time-limits-pause.html
+[147] https://www.w3.org/TR/2014/NOTE-UNDERSTANDING-WCAG20-20140408/time-limits-pause.html
+[148] https://www.w3.org/WAI/WCAG22/Techniques/general/G186
+[149] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility
+[150] https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media
+[151] https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Using_color_wisely
+

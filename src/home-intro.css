@@ -1,0 +1,20 @@
+/* User-supplied landscape-video treatment; TaskAccord content and brand retained. */
+.company-home.with-home-intro{padding-top:0}
+.home-intro{position:relative;width:100%;height:100svh;min-height:700px;overflow:hidden;background:#faf8f5;isolation:isolate}
+.home-intro-video{position:absolute;inset:0;z-index:-1}
+.home-intro-video video{display:block;width:100%;height:100%;object-fit:cover;object-position:center bottom}
+.home-intro-content{position:relative;max-width:1280px;margin:0 auto;padding:144px 32px 0;color:#2d3a2e}
+.home-intro-announcement{display:inline-flex;align-items:center;gap:10px;padding:9px 16px;border-radius:100px;border:1px solid #2d3a2e26;background:#ffffff99;backdrop-filter:blur(8px);font-size:13px;line-height:1.5;margin-bottom:24px;transition:background .2s;animation:intro-fade-up .8s cubic-bezier(.16,1,.3,1) .24s both}
+.home-intro-announcement:hover{background:#ffffffcc}
+.home-intro-announcement:focus-visible{outline:2px solid #2d3a2e;outline-offset:4px}
+.home-intro h2{font-family:var(--sans);font-weight:300;font-size:clamp(36px,4.45vw,64px);line-height:1.05;letter-spacing:-.045em;max-width:1040px;animation:intro-fade-up .8s cubic-bezier(.16,1,.3,1) .36s both}
+.site-header.home-intro-header:not(.is-scrolled){background:transparent;border-bottom-color:transparent;backdrop-filter:none}
+.site-header.home-intro-header.is-scrolled{background:#fffcf5e6;backdrop-filter:blur(16px);box-shadow:0 2px 8px #262b2608}
+@keyframes intro-fade-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1100px){.home-intro-content{padding:144px 48px 0}.home-intro h2{font-size:48px}}
+@media(max-width:760px){.home-intro-content{padding:112px 24px 0}.home-intro h2{font-size:36px;line-height:1.08;letter-spacing:-.035em}.home-intro-announcement{font-size:11px;padding:8px 12px;gap:8px;margin-bottom:20px}}
+@media(max-width:639px){.intro-line-break{display:none}}
+@media(prefers-reduced-motion:reduce){.home-intro h2,.home-intro-announcement{animation:none;transition:none}}
+
+.intro-return-row{display:flex;justify-content:flex-end;margin-top:-44px;margin-bottom:28px}.intro-return-row button{display:inline-flex;align-items:center;gap:12px;background:#fffcf5c9;border:1px solid #a99c8070;border-radius:3px;padding:10px 14px;font:11px var(--sans);color:var(--ink);min-height:40px;cursor:pointer}.intro-return-row button:hover{background:#e7ebdd;border-color:#8a6742}.intro-return-row button:focus-visible{outline:2px solid #526443;outline-offset:4px}
+@media(max-width:760px){.intro-return-row{margin-top:-20px;margin-bottom:24px}.intro-return-row button{font-size:11px}}

@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "current_delivery": "consented in-memory browser queue only; no network transport",
+  "common_fields": [
+    "event_id",
+    "schema_version",
+    "timestamp",
+    "event",
+    "route",
+    "environment",
+    "synthetic",
+    "consent",
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_content",
+    "utm_term",
+    "ad_id"
+  ],
+  "forbidden_fields": [
+    "email",
+    "name",
+    "company",
+    "form_text",
+    "contracts",
+    "logs",
+    "credentials",
+    "payment_details",
+    "fixture_payload"
+  ],
+  "events": {
+    "landing_view": {
+      "current": "implemented; consent required",
+      "production_trigger": "landing page view"
+    },
+    "demo_open": {
+      "current": "implemented; synthetic=true",
+      "production_trigger": "demo entered"
+    },
+    "demo_complete": {
+      "current": "implemented on sample report export; synthetic=true",
+      "production_trigger": "user completes defined demo flow, never a buyer commitment"
+    },
+    "pricing_view": {
+      "current": "implemented; consent required",
+      "production_trigger": "pricing viewed"
+    },
+    "form_start": {
+      "current": "implemented; no entered values included",
+      "production_trigger": "first application interaction"
+    },
+    "form_submit": {
+      "current": "not emitted by local preview",
+      "production_trigger": "server accepts a real consented lead submission"
+    },
+    "verified_signup": {
+      "current": "not emitted",
+      "production_trigger": "required email verification completed"
+    },
+    "interview_booked": {
+      "current": "not emitted",
+      "production_trigger": "confirmed real interview booking"
+    },
+    "preview_form_submit": {
+      "current": "implemented",
+      "production_trigger": "local application draft prepared"
+    },
+    "preview_verified_signup": {
+      "current": "allow-listed but never emitted",
+      "production_trigger": "reserved; no live verification exists"
+    },
+    "preview_interview_booked": {
+      "current": "allow-listed but never emitted",
+      "production_trigger": "reserved; no live booking exists"
+    }
+  },
+  "consent": {
+    "default": "off",
+    "stored_preference": "ta-measurement",
+    "revocation": "clear browser event queue and dedupe keys",
+    "third_party_scripts": false
+  },
+  "dedupe": {
+    "current": "in-memory event/route/step key; reset on revoke or reload",
+    "production": "unique event_id generated before transport; server-side idempotency storage required before activation"
+  },
+  "separation": "Keep synthetic demo events separate from real leads and experiment commitments. Local drafts must not increment qualified lead, verified signup or pilot counts."
+}
