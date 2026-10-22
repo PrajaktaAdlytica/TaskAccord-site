@@ -1,0 +1,54 @@
+name: Build Hostinger deployment branch
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hostinger-deploy
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - name: Publish compiled website
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f dist/client/index.html
+          test -f dist/client/.htaccess
+          deploy_dir=$(mktemp -d)
+          cp -a dist/client/. "$deploy_dir/"
+          cd "$deploy_dir"
+          git init -b hostinger-deploy
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          auth_header=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git config http.https://github.com/.extraheader "AUTHORIZATION: basic $auth_header"
+          if git ls-remote --exit-code --heads origin hostinger-deploy >/dev/null; then
+            git fetch --depth=1 origin hostinger-deploy
+            git reset --mixed FETCH_HEAD
+          fi
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Compiled website is unchanged.'
+            exit 0
+          fi
+          git commit -m "Build Hostinger site from ${GITHUB_SHA}"
+          git push origin HEAD:hostinger-deploy
