@@ -344,6 +344,7 @@ function Footer({ privacy }) {
               <Link to="/about">About TaskAccord</Link>
               <Link to="/contact">Contact</Link>
               <a href="mailto:hello@taskaccord.example">hello@taskaccord.example</a>
+              <CompanyAddress className="footer-address" />
               <Link to="/sandbox">Discuss a sandbox</Link>
               <Link to="/preview-access">Preview access</Link>
               <Link to="/sign-in">Sign in</Link>
@@ -383,6 +384,10 @@ function Footer({ privacy }) {
       </div>
     </footer>
   );
+}
+
+function CompanyAddress({ className = "" }) {
+  return <address className={className}>216/4 Dien Bien Phu St.<br/>Ward 7<br/>District 3<br/>Ho Chi Minh City<br/>790762<br/>Vietnam</address>;
 }
 
 function FAQ({ items = faqs }) {
@@ -445,7 +450,7 @@ function ExceptionCheck() {
 function Home() {
  const introController=useRef(null);
  return <main className="company-home with-home-intro"><HomeIntro controller={introController}/>
-  <section className="company-hero" id="homepage-hero"><div className="container intro-return-row"><button type="button" onClick={()=>introController.current?.replay()}>Back to intro <span aria-hidden="true">↑</span></button></div><div className="container hero-layout"><div className="hero-copy"><p className="eyebrow">HUMAN-APPROVED TASK DELEGATION</p><h1>Set the task.<br/>Keep authority<br/>with people.</h1><p className="hero-lead">Clear scope, spending limits and result receipts for bounded buyer–supplier agent tasks.</p><p className="hero-audience">For API marketplaces bringing an existing buyer and supplier into one reviewed workflow.</p><div className="actions"><Button to="/sandbox">Discuss a sandbox</Button><Button to="/demo" secondary>Explore the demo</Button></div><p className="hero-status"><i/> Research-stage concept · No live contracting or payments</p></div><MotionSurface className="hero-workbench hero-motion" label="task record"><div className="workbench-note">ONE TASK. TWO ORGANIZATIONS. HUMAN AUTHORITY.</div><TaskRecord/><span className="workbench-caption">A fictional transaction. A concrete decision.</span></MotionSurface></div></section>
+  <section className="company-hero" id="homepage-hero"><div className="container intro-return-row"><button type="button" onClick={()=>introController.current?.replay()}>Back to intro <span aria-hidden="true">↑</span></button></div><div className="container funding-announcement" role="note"><span>FUNDING UPDATE</span><p>TaskAccord has secured venture capital funding. Investor and amount details to follow.</p></div><div className="container hero-layout"><div className="hero-copy"><p className="eyebrow">HUMAN-APPROVED TASK DELEGATION</p><h1>Set the task.<br/>Keep authority<br/>with people.</h1><p className="hero-lead">Clear scope, spending limits and result receipts for bounded buyer–supplier agent tasks.</p><p className="hero-audience">For API marketplaces bringing an existing buyer and supplier into one reviewed workflow.</p><div className="actions"><Button to="/sandbox">Discuss a sandbox</Button><Button to="/demo" secondary>Explore the demo</Button></div><p className="hero-status"><i/> Research-stage concept · No live contracting or payments</p></div><MotionSurface className="hero-workbench hero-motion" label="task record"><div className="workbench-note">ONE TASK. TWO ORGANIZATIONS. HUMAN AUTHORITY.</div><TaskRecord/><span className="workbench-caption">A fictional transaction. A concrete decision.</span></MotionSurface></div></section>
   <section className="question-strip"><div className="container"><p className="eyebrow">THE QUESTIONS BEHIND EVERY DELEGATION</p><div className="question-grid">{['Who approved this task?','What can change?','Who accepts the result?'].map((q,i)=><div key={q}><span>0{i+1}</span><h2>{q}</h2></div>)}</div><div className="question-note"><p>Messages can carry a task. Payment rails can carry funds. The proposed workflow asks whether both parties need a shared record of authority, boundaries and human decisions.</p><Link to="/how-it-works" className="text-link">Understand the workflow <Icon/></Link></div></div></section>
   <section className="site-section workflow-section"><div className="container"><div className="section-head"><div><p className="eyebrow">THE WORKFLOW</p><h2>One transaction.<br/>Every handoff visible.</h2></div><p>Follow M-DEMO-1 from reviewed paper terms to a result awaiting human acceptance. Agents exchange artifacts; people own the approvals.</p></div><div className="workflow-grid">{[
    ['Human terms','Counsel reviews authority and delegation terms.','users-round'],['Sample mandate','Record a $120 ceiling and approved scope.','file-check-2'],['Bounded task','Exchange the agreed research deliverable.','scan-line'],['Changed proposal','Reject the $180 revision. Keep the ceiling.','circle-x'],['Result receipt','Record evidence. Await human acceptance.','receipt-text'],['Invoice reference','Compare mock records; reconcile manually.','notebook-tabs']
@@ -1303,6 +1308,7 @@ function CompanyPage({ type }) {
               <a className="email-link" href="mailto:hello@taskaccord.example">
                 hello@taskaccord.example
               </a>
+              <CompanyAddress className="company-address" />
               <p>
                 For privacy or deletion requests, use the same contact route.
               </p>
@@ -1361,6 +1367,8 @@ function CompanyPage({ type }) {
               real customers, demand, accepted pricing, live integrations or
               legal enforceability have been demonstrated.
             </p>
+            <h3>Company address</h3>
+            <CompanyAddress className="company-address" />
             <h3>A measured expansion hypothesis</h3>
             <p>
               One narrow repeated workflow could lead to a reusable policy and

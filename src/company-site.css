@@ -25,6 +25,13 @@ body{background:var(--surface)}
 .hero-copy .actions{gap:12px;margin:28px 0 22px}.hero-copy .button{font-size:12px}
 .hero-status{font-size:10px;display:flex;align-items:center;gap:8px;margin:0;color:var(--muted)}
 .hero-status i,.task-preview-top i{width:5px;height:5px;border-radius:50%;background:var(--brass);display:inline-block}
+.funding-announcement{position:relative;display:flex;align-items:center;gap:18px;padding:12px 18px;margin-bottom:30px;border:1px solid var(--line);border-radius:4px;background:#fffcf5b8;color:var(--ink)}
+.funding-announcement span{flex:none;color:var(--brass);font-size:10px;font-weight:600;letter-spacing:.12em}
+.funding-announcement p{margin:0;font-size:12px;line-height:1.55}
+.company-address,.footer-address{font-style:normal;line-height:1.7}
+.company-address{margin:16px 0 24px;color:var(--muted);font-size:14px}
+.footer-address{margin-top:14px;color:var(--muted);font-size:12px}
+@media(max-width:760px){.funding-announcement{display:block;padding:12px 14px;margin-bottom:24px}.funding-announcement p{margin-top:6px;font-size:11px}}
 .hero-workbench{position:relative;padding:30px 25px 25px;background:#dde2d34d;border:1px solid #c8bda94d;border-radius:4px}
 .workbench-note,.workbench-caption{font-size:8px;letter-spacing:.14em;color:#696b5d;display:block;text-align:center}
 .workbench-note{margin-bottom:21px}.workbench-caption{margin-top:20px;letter-spacing:.04em;font-size:10px}
